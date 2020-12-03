@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.pan.mapper.OwnMapper">
+
+    <resultMap id="recommendMap" type="Recommend">
+        <id property="id" column="id"/>
+        <result property="goodsId" column="goods_id"/>
+    </resultMap>
+
+    <select id="getGoodsLimit" resultType="Goods" parameterType="Integer">
+    SELECT* FROM goods WHERE STATUS=1 LIMIT #{num}
+  </select>
+    <select id="getRecommendLimit" resultMap="recommendMap" parameterType="Integer">
+    SELECT* FROM recommend LIMIT #{num}
+  </select>
+</mapper>

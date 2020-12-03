@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/person.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/addgoods.css">
+    <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../js/addgoods.js"></script>
+</head>
+<body>
+<div class="container main">
+    <div class="leftBar">
+
+            <div class="Menu">
+                <a href="busInfo.html" >个人信息 ></a>
+            </div>
+            <div class="Menu">
+                <a href="mygoods.html">我的商品 ></a>
+            </div>
+            <div class="Menu">
+                <a href="goodslist.html" >订单列表 ></a>
+            </div>
+            <div class="Menu">
+                <a href="addgoods.html" style="color:red;">发布商品 ></a>
+            </div>
+        
+    </div>
+    <div class="content">
+        <span>商品名称：</span><input class="inTitle" type="text" name="title">
+        <span>商品描述：</span><textarea class="inDes" name="details"></textarea>
+        <span>商品价格：</span><input class="inPri" type="text" name="price">
+        <span>商品类型：</span><br>
+        <input type="radio" name="type" value="宿舍用品"><span>宿舍用品</span>
+        <input type="radio" name="type" value="电子设备"><span>电子设备</span>
+        <input type="radio" name="type" value="书籍"><span>书籍</span>
+        <input type="radio" name="type" value="其他"><span>其他</span>
+        <br>
+        <span>选择图片：</span>
+        <input class="inPhoto" type="file" name="photo"><br><br><br>
+        <button id="btn">提交订单</button>
+    </div>
+</div>
+</body>
+</html>

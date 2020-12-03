@@ -1,0 +1,61 @@
+.main{
+    width: 1260px;
+    height: 1000px;
+    margin:0 auto;
+    padding: 0;
+    background-color: white;
+}
+.photo,.title,.seller{
+    width: 420px;
+    height: 50%;
+   float: right;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.photo img{
+display: block;
+}
+.title{
+    flex-direction: column;
+}
+.title p{
+    width: 100%;
+    height: 50%;
+    margin:0;
+    font-size:30px;
+    padding-top: 40px;
+    word-break: break-all;
+}
+.operate{
+    width: 100%;
+    height: 50%;
+}
+.operate .join{
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    margin-left:0px;
+}
+.seller{
+    flex-direction: column;
+}
+.seller p{
+    width: 100%;
+    height: 10%;
+    margin:0;
+    padding-left: 250px;
+    font-size:30px;
+}
+.seller .info{
+    width: 100%;
+    height: 60%;
+}
+.describe{
+    width:100%;
+    height: 50%;
+}
+#des{
+    font-size:20px;
+    word-break: break-all;
+}

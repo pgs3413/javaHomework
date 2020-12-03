@@ -1,0 +1,55 @@
+.left,.right{
+    width:50%;
+    height:800px;
+}
+.left{
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    float: left;
+}
+.right{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.main{
+    width:70%;
+    height: 70%;
+
+}
+.main p{
+    color:#f56600;
+    font-size: 40px;
+    text-align: center;
+}
+.in{
+    display: block;
+    width: 60%;
+    height: 42px;
+    border:1px solid #757575;
+    margin:0 auto;
+    margin-bottom: 20px;
+    padding:10px;
+
+}
+.btn{
+    display: block;
+    margin:0 auto;
+    margin-top:28px;
+    width: 64%;
+    height: 54px;
+    border:none;
+    background-color: #f56600;
+    color:white;
+    font-size:16px;
+}
+.buss{
+    color:#999999;
+    font-size:20px;
+    position:relative;
+    left:250px;
+    top:40px;
+}

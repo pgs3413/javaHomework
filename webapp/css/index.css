@@ -1,0 +1,143 @@
+.topBar{
+    width: 100%;
+    height: 31px;
+    
+}
+.header{
+    width:100%;
+    height:120px;
+    background-color: #fff;
+}
+.container{
+    width:1226px;
+    height: 100%;
+    margin:0 auto;
+    position: relative;
+}
+
+.container .top-left{
+    float:left;
+}
+.container .car{
+    float: right;
+    margin-left: 8px;
+}
+.container .operation{
+    float:right;
+}
+
+.topBar a{
+    color:#666;
+    font-size:14px;
+    display: inline-block;
+    line-height: 31px;
+}
+.topBar a:hover{
+    color: black;
+}
+.container .site-logo{
+    float:left;
+}
+.container .search{
+    float: right;
+    margin: 40px 300px 40px 0;
+}
+.container .search .searchBox{
+    width:550px;
+    height: 36px;
+    border:2px solid black;
+}
+.container .search .searchSubmit{
+    height:43px;
+    width: 60px;
+    color:white;
+    border:none;
+    margin-bottom:-3px;
+    margin-left: -4px;
+    background-color: #666;
+}
+.container .search .searchSubmit:hover{
+    background-color: #777;
+}
+.site-recommend{
+    width:100%;
+    height:420px;
+    overflow: hidden;
+}
+
+.site-content{
+    width: 100%;
+    /* height:1000px; */
+   
+}
+.site-recommend .title{
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 20px;
+    color:#333;
+}
+ ol{
+    padding-left:0;
+}
+ li{
+    display: inline-block;
+    margin-bottom:30px;
+}
+
+.goods{
+    height:400px;
+    width:260px;
+    background-color: white;
+    margin-left:20px;
+    margin-bottom: 30px;
+}
+.goods .goods-img{
+    width: 260px;
+    height: 220px;
+}
+.goods .goods-des{
+    width: 260px;
+    height: 80px;
+
+}
+.goods .goods-des p{
+    padding:10px 10px 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212121;
+    word-break:break-all;
+}
+
+.goods .goods-price{
+    width: 260px;
+    height: 80px;
+}
+.goods .goods-price p{
+    font-size:15px;
+    text-align: center;
+}
+.site-content .goods-type li{
+    display: inline-block;
+}
+.site-content .goods-type li a{
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 20px;
+    color:#333;
+}
+.footer{
+    width:100%;
+    height:50px;
+}
+.footer .container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer .container a{
+    position: relative;
+    right:40px;
+    font-size: 22px;
+    display: inline-block;
+    color:#333;
+    
+}
