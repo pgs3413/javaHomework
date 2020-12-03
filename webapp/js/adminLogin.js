@@ -1,0 +1,11 @@
+$(function(){
+    $.ajax({
+        url:"adminCheck.do",
+        type:"post",
+        success:function(str){
+            if(str=="false"){
+                alert("登录失败！");
+            }
+        }
+    })
+})

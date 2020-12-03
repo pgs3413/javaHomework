@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的订单</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/person.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/goodslist.css">
+    <script type="text/javascript" src="/trading/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="/trading/js/topBar.js"></script>
+    <script type="text/javascript" src="/trading/js/topBar.js"></script>
+    <script type="text/javascript" src="/trading/js/order.js"></script>
+</head>
+<body>
+    <div class="topBar">
+        <div class="container">
+            <div class="top-left">
+                <a href="/trading/index.html">首页</a>
+             </div>
+             <div class="car">
+                 <i class="iconfont">&#xe6ae;</i>
+                 <a class="cartHref" href="/trading/login.html">购物车(<span class="NumOfCar">0</span>)</a>
+             </div>
+             <div class="operation">
+                 
+             </div>
+            
+        </div>
+    </div>
+<div class="container main">
+    <div class="leftBar">
+        <div class="Menu">
+            <a href="person.html" >个人信息 ></a>
+        </div>
+        <div class="Menu">
+            <a href="shopCar.html">我的购物车 ></a>
+        </div>
+        <div class="Menu">
+            <a href="order.html" style="color:red;">我的订单 ></a>
+        </div>
+    </div>
+    <div class="content">
+        <table>
+            <thead>
+                <tr><th>商品名称</th><th>商品描述</th><th>商品类型</th><th>商品价格</th>
+                <th>购买者地址</th><th>订单状态</th>
+                </tr>                
+            </thead>
+            <tbody id="body">
+            </tbody>
+        </table>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+$(function(){
+    $.ajax({
+        url:"busInfo.do",
+        type:"post",
+        dataType:"json",
+        success:function(business){
+          $(".bussName").text(business.businessName);
+          $(".name").text(business.name);
+          $(".stuNum").text(business.stuNum);
+          $(".major").text(business.major);
+          $(".className").text(business.className);
+          $(".phone").text(business.phone);
+          $(".email").text(business.email);        
+        }
+    })
+})

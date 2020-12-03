@@ -1,0 +1,20 @@
+$(function(){
+    $.ajax({
+        url:"businessCheck.do",
+        type:"post",
+        success:function(str){
+            if(str=="false"){
+                alert("登录失败！");
+            }
+        }
+    });
+    $.ajax({
+        url:"bussRegisterCheck.do",
+        type:"post",
+        success:function(str){
+            if(str=="true"){
+                alert("注册成功！请等待管理员审核通过！");
+            }
+        }
+    });
+});

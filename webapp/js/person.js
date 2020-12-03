@@ -1,0 +1,15 @@
+$(function(){
+    $.ajax({
+        url:"person.do",
+        type:"post",
+        dataType:"json",
+        success:function(user){
+            $(".userName").text(user.userName);
+            $(".name").text(user.name);
+            $(".stuNum").text(user.stuNum);
+            $(".major").text(user.major);
+            $(".className").text(user.className);
+            $(".phone").text(user.phone);
+        }
+    });
+});
