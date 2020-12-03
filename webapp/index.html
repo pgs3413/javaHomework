@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二手交易平台</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <script type="text/javascript" src="/trading/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="/trading/js/index.js"></script>
+    <script type="text/javascript" src="/trading/js/searchBtn.js"></script>
+    <script type="text/javascript" src="/trading/js/topBar.js"></script>
+</head>
+<body>
+    <!-- 顶部栏 -->
+    <div class="topBar">
+        <div class="container">
+            <div class="top-left">
+               <a href="/trading/index.html">首页</a>
+            </div>
+            <div class="car">
+                <i class="iconfont">&#xe6ae;</i>
+                <a class="cartHref" href="/trading/login.html">购物车(<span class="NumOfCar">0</span>)</a>
+            </div>
+            <div class="operation">
+             
+            </div>
+            
+        </div>
+    </div>
+    <!-- 导航栏 -->
+    <div class="header">
+        <div class="container">
+        <div class="site-logo">
+            <a href="#">
+                <img src="images/logo.jpg" alt="logo" height=120px >
+            </a>
+        </div>
+            <div class="search">
+    
+                    <input class="searchBox" type="text" name="query" >
+                    <input class="searchSubmit" type="submit" value="搜索">
+                
+            </div>
+        </div>
+    </div>
+    <!-- 推荐栏 -->
+    <div class="site-recommend">
+        <div class="container">
+            <a class="title" href="/trading/goods/sort.do?type=0">推荐商品</a>
+        <div class="recommend-goods">
+            <ol class="recommendList">
+            </ol>
+        </div>    
+        </div>
+    </div>
+    <!-- 内容详情 -->
+    <div class="site-content">
+        <div class="container">
+          <div class="goods-type">
+              <ol>
+                  <li><a href="/trading/goods/sort.do?type=1">全部商品</a></li>
+                  <li><a href="/trading/goods/sort.do?type=2">宿舍用品</a></li>
+                  <li><a href="/trading/goods/sort.do?type=3">电子设备</a></li>
+                  <li><a href="/trading/goods/sort.do?type=4">书籍</a></li>
+                  <li><a href="/trading/goods/sort.do?type=5">其他</a></li>
+              </ol>
+          </div>  
+          <div class="goods-list">
+              <ol class="allGoods">
+                
+            </ol>
+          </div>
+        </div>
+    </div>
+    <!-- 脚部-->
+    <div class="footer">
+        <div class="container">
+            <a href="#">关于我们</a>
+        </div>
+    </div>
+</body>
+</html>
