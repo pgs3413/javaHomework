@@ -8,4 +8,5 @@ import java.util.List;
 public interface OwnMapper {
     List<Goods> getGoodsLimit(int num);
     List<Recommend> getRecommendLimit(int num);
+    List<Goods> getGoodsViaSearch(Map<String,Object> map);
 }
