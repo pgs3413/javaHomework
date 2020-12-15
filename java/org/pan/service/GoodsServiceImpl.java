@@ -176,11 +176,11 @@ public class GoodsServiceImpl implements GoodsService {
 
     @Override
     public List<Goods> getGoodsViaSearch(String s) {
-        QueryWrapper<Goods> wrapper=new QueryWrapper<>();
-        wrapper.like("title",s);
-        wrapper.or();
-        wrapper.like("details",s);
-        return goodsMapper.selectList(wrapper);
+        HashMap<String,Object> map=new HashMap<>();
+        map.put("status",1);
+        map.put("title","%"+s+"%");
+        map.put("details","%"+s+"%");
+        return ownMapper.getGoodsViaSearch(map);
 
     }
 

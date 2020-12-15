@@ -15,4 +15,7 @@
     <select id="getRecommendLimit" resultMap="recommendMap" parameterType="Integer">
     SELECT* FROM recommend LIMIT #{num}
   </select>
+    <select id="getGoodsViaSearch" resultType="Goods" parameterType="Map">
+        SELECT * FROM goods WHERE STATUS = #{status} AND (title LIKE #{title} OR details LIKE #{details})
+    </select>
 </mapper>
